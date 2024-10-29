@@ -128,7 +128,7 @@ st.subheader("Distribución de Accidentes en Perú")
 
 # Obtener datos del mapa de Perú (puede que necesites descargar esto por separado)
 import json
-with open(r'C:\Users\USER\Desktop\MTPE\Analitica_MTPE\peru_departamental_simple.geojson') as f:
+with open('peru_departamental_simple.geojson') as f:
     peru_map = json.load(f)
 
 # Agregar datos por departamento
