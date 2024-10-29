@@ -34,7 +34,7 @@ st.markdown("""
 # Cargar y preprocesar los datos
 @st.cache_data
 def load_data():
-    df = pd.read_csv(r"Analitica_MTPE\clean_data.csv")
+    df = pd.read_csv("clean_data.csv")
     df['FECHA_ACCIDENTE'] = pd.to_datetime(df['FECHA_ACCIDENTE'], format='%d-%m-%Y', errors='coerce')
     df = df.dropna(subset=['FECHA_ACCIDENTE'])
     
