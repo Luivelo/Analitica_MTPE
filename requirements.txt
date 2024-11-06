@@ -4,3 +4,9 @@ streamlit
 plotly
 scikit-learn
 statsmodels
+xgboost
+imblearn
+pickle
+catboost
+joblib
+pathlib
